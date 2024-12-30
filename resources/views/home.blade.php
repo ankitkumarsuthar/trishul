@@ -1,0 +1,1 @@
+<h1>Welcome to the Template Home Page!</h1>
