@@ -28,6 +28,9 @@ Route::get('/products', [App\Http\Controllers\ProductsController::class, 'index'
 Route::get('/services', [App\Http\Controllers\ServicesController::class, 'index'])->name('services');
 Route::get('/contact-us', [App\Http\Controllers\ContactUsController::class, 'index'])->name('contact-us');
 
+Route::get('/lang/{lang}', [App\Http\Controllers\LanguageController::class, 'switchLang'])->name('lang.switch');
+
+
 
 
 // Route::get('/', function () {

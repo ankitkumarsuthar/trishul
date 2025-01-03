@@ -12,7 +12,19 @@
 	  			</div>
 	  			<div class="col-lg-6 col-sm-6 col-8 header-top-right no-padding">
 	  				<a href="tel:+880 012 3654 896">+880 012 3654 896</a>
-	  				<a href="mailto:support@colorlib.com">support@colorlib.com</a>				
+	  				<a href="mailto:support@colorlib.com">support@colorlib.com</a>		
+	  				 <div class="dropdown d-inline-block">
+	                    <button class="btn btn-link dropdown-toggle" type="button" id="languageDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	                          {{ App::getLocale() == 'de' ? 'Deutsch' : 'English' }} 
+	                    </button>
+	                    <div class="dropdown-menu" aria-labelledby="languageDropdown">
+	                        <a class="dropdown-item" href="{{ route('lang.switch', 'en') }}" data-lang="en" style="color: black;">English</a>
+	                        <a class="dropdown-item" href="{{ route('lang.switch', 'de') }}" data-lang="de" style="color: black;" >Deutsch</a>
+	                    </div>
+	                </div>	
+
+	          
+
 	  			</div>
 	  		</div>			  					
 			</div>

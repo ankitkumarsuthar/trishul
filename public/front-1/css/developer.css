@@ -1,0 +1,31 @@
+/* Optional customizations for the dropdown menu */
+.language-switcher .dropdown-menu {
+    min-width: 150px;
+    text-align: left;
+}
+
+/* Default color for dropdown items */
+.language-switcher .dropdown-item {
+    padding: 8px 15px;          /* Adjust padding as needed */
+    color: #333;                /* Default text color */
+    font-size: 14px;            /* Adjust font size if needed */
+    transition: color 0.3s ease, background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Hover effect: Change text color and background color */
+.language-switcher .dropdown-item:hover {
+    color: #fff;                /* White text when hovered */
+    background-color: #007bff;  /* Blue background on hover */
+}
+
+/* Optional: Active state for the currently selected language */
+.language-switcher .dropdown-item.active {
+    color: #fff;                /* White text when active */
+    background-color: #28a745;  /* Green background for active item */
+}
+
+/* Optional: Prevent underline on links */
+.language-switcher .dropdown-item:focus, 
+.language-switcher .dropdown-item:hover {
+    text-decoration: none;
+}

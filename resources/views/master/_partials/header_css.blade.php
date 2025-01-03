@@ -8,3 +8,4 @@
 <link rel="stylesheet" href="{{ asset('front-1/css/animate.min.css') }}">
 <link rel="stylesheet" href="{{ asset('front-1/css/owl.carousel.css') }}">
 <link rel="stylesheet" href="{{ asset('front-1/css/main.css') }}">
+<link rel="stylesheet" href="{{ asset('front-1/css/developer.css') }}">

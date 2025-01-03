@@ -14,3 +14,24 @@
 <script src="{{ asset('front-1/js/waypoints.min.js') }}"></script>							
 <script src="{{ asset('front-1/js/mail-script.js') }}"></script>	
 <script src="{{ asset('front-1/js/main.js') }}"></script>
+
+<script type="text/javascript">
+	document.addEventListener('DOMContentLoaded', function() {
+    const languageOptions = document.querySelectorAll('.dropdown-item');
+    languageOptions.forEach(option => {
+        option.addEventListener('click', function(e) {
+            e.preventDefault();
+            const lang = e.target.dataset.lang;
+
+            // Set language to the selected one
+            changeLanguage(lang);
+        });
+    });
+
+    function changeLanguage(lang) {
+        // Use Laravel's URL to set the language
+        window.location.href = `/lang/${lang}`;
+    }
+});
+
+</script>
