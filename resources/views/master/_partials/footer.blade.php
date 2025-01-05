@@ -4,11 +4,11 @@
 		<div class="row">
 			<div class="col-lg-5 col-md-6 col-sm-6">
 				<div class="single-footer-widget">
-					<h6>About Us</h6>
+					<h6>{{ trans('front/master.footer_about_txt') }}</h6>		
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua.
+						{{ trans('front/master.footer_about_txt_2') }}
 					</p>
-					<p class="footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">Colorlib</a>
+					<p class="footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="#" target="_blank">{{ trans('front/master.copyright_name') }}</a>
 					</p>								
 				</div>
 			</div>
