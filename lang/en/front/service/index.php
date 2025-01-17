@@ -1,7 +1,34 @@
 <?php
 
 return [   
-   'meta_title_lbl'             => 'Service',
+    // Meta Title
+    'meta_title_lbl' => 'Our Services - Shree Trishul Exim: Export & Import of Premium Psyllium Husk & Indian Spices',
+
+    // Meta Description
+    'meta_description_lbl' => 'Shree Trishul Exim offers comprehensive export and import services, specializing in bulk trading, international shipping, custom packaging, and efficient logistics. We ensure timely delivery of premium psyllium husk and Indian spices globally, with a focus on maintaining product quality and customer satisfaction.',
+
+    // Meta Keywords
+    'meta_keywords_lbl' => 'export and import services, bulk trading, international shipping, custom packaging, logistics, supply chain management, psyllium husk export, Indian spices, global trade, premium quality, timely delivery, global reach',
+
+    // Open Graph Tags
+    'og_title_lbl' => 'Our Services - Shree Trishul Exim: Export & Import of Premium Psyllium Husk & Indian Spices',
+    'og_description_lbl' => 'Explore Shree Trishul Exim\'s professional export and import services. We provide bulk trading, international shipping, custom packaging, and effective logistics management for premium psyllium husk and Indian spices. Trust us for timely and reliable deliveries worldwide.',
+    'og_image_lbl' => asset('front-1/img/logo.png'), // Path to the image for social sharing
+    'og_url_lbl' => url('services'), // Use the URL of the Services page
+    'og_type_lbl' => 'website',
+
+    // Twitter Meta Tags
+    'twitter_title_lbl' => 'Our Services - Shree Trishul Exim',
+    'twitter_description_lbl' => 'Learn more about Shree Trishul Exim’s export and import services. We specialize in bulk trading, logistics, and global delivery of premium psyllium husk and Indian spices. Reliable, fast, and efficient.',
+    'twitter_image_lbl' => asset('front-1/img/logo.png'),
+    'twitter_url_lbl' => url('services'),
+
+    // Canonical URL
+    'canonical_url_lbl' => url('services'),
+
+
+
+
    'banner_title_lbl' => 'Service',
    'banner_home_lbl' => 'Home',
    'services_title' => 'Service',

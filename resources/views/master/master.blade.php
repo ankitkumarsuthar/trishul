@@ -1,7 +1,8 @@
 	<!DOCTYPE html>
 	<html lang="zxx" class="no-js">
 	<head>
-		@include("master._partials.header_meta")
+		@yield('page-meta')
+		{{-- @include("master._partials.header_meta") --}}
 		@include("master._partials.header_css")
 		@yield('page-css')
 		

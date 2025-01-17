@@ -1,7 +1,31 @@
 <?php
 
 return [   
-    'meta_title_lbl'             => 'Home Page',
+     // Meta Title
+    'meta_title_lbl' => 'Shree Trishul Exim: Premium Psyllium Husk & Indian Spices | Home Page',
+    
+    // Meta Description
+    'meta_description_lbl' => 'Shree Trishul Exim specializes in the export and import of Premium Psyllium Husk and authentic Indian Spices. Our high-quality products support digestive health, cholesterol management, and overall wellness. Discover our range of natural remedies to improve your health.',
+    
+    // Meta Keywords
+    'meta_keywords_lbl' => 'psyllium husk export, import psyllium husk, Indian spices, premium psyllium husk, digestive health, cholesterol management, weight management, gut health, natural remedies, Shree Trishul Exim, fiber supplements, bulk spices, wholesale psyllium husk, Ayurvedic spices, Indian herbs, export business, health products export',
+
+    // Open Graph Details
+    'og_title_lbl' => 'Shree Trishul Exim: Premium Psyllium Husk & Indian Spices',
+    'og_description_lbl' => 'Explore the benefits of Premium Psyllium Husk and authentic Indian Spices at Shree Trishul Exim. We specialize in the export and import of high-quality health products to support digestive health, cholesterol management, and overall well-being.',
+    'og_image_lbl' => asset('front-1/img/logo.png'),
+    'og_url_lbl' => 'https://www.shreetrishulexim.com',
+    
+    // Twitter Meta Tags
+    'twitter_title_lbl' => 'Shree Trishul Exim: Premium Psyllium Husk & Indian Spices',
+    'twitter_description_lbl' => 'Discover the health benefits of Premium Psyllium Husk and Indian Spices. Shree Trishul Exim is your trusted partner for the export and import of natural products to enhance wellness and support healthy digestion.',
+    'twitter_image_lbl' => asset('front-1/img/logo.png'),
+    'twitter_url_lbl' => 'https://www.shreetrishulexim.com',
+    
+    // Canonical URL
+    'canonical_url_lbl' => 'https://www.shreetrishulexim.com',
+
+     
    'banner_txt_one'             => 'Global Traders of India\'s Finest Spices and Psyllium Husk',
    'banner_txt_two'             => 'SHREE TRISHUL EXIM: Global Traders of Premium Psyllium Husk & Indian Spices',
    'banner_txt_three'           => 'Welcome to SHREE TRISHUL EXIM, the leading exporters of high-quality Psyllium Husk and exquisite Indian Spices. Renowned for our commitment to excellence and customer satisfaction, we ensure our products meet the highest standards. Discover the rich flavors and exceptional health benefits our range offers.',    
@@ -61,5 +85,7 @@ return [
    'feedback_text_p' => 'Our clients are passionate about our eco-friendly approach and premium quality products.',
 
    'service_detail_p_3' => 'Catering to those who cherish eco-friendly solutions, our latest ventures emphasize our commitment to quality and sustainability.',
+
+   'certificate_title_txt' => 'Our Certificate',
 
 ];

@@ -1,65 +1,61 @@
 <?php
 
 return [   
-   'meta_title_lbl'             => 'About Us Page',
-   'banner_txt_one'             => 'Global Traders of India\'s Finest Spices and Psyllium Husk',
-   'banner_txt_two'             => 'SHREE TRISHUL EXIM: Global Traders of Premium Psyllium Husk & Indian Spices',
-   'banner_txt_three'           => 'Welcome to SHREE TRISHUL EXIM, the leading exporters of high-quality Psyllium Husk and exquisite Indian Spices. Renowned for our commitment to excellence and customer satisfaction, we ensure our products meet the highest standards. Discover the rich flavors and exceptional health benefits our range offers.',    
+    // Meta Title
+    'meta_title_lbl' => 'Über uns - Shree Trishul Exim: Premium Psyllium Husk & Indische Gewürze',
 
-   'prduct_btn_txt'             => 'Explore Our Products',    
-   'contact_btn_txt'            => 'Contact Us',   
+    // Meta Description
+    'meta_description_lbl' => 'Erfahren Sie mehr über Shree Trishul Exim, einen vertrauenswürdigen Exporteur von Premium Psyllium Husk und Indischen Gewürzen. Entdecken Sie unser Engagement für hochwertige, natürliche Produkte, die die Verdauungsgesundheit und das allgemeine Wohlbefinden unterstützen.',
 
-   // 'contact_btn_txt'            => 'SHREE TRISHUL EXIM is a leading exporter and importer of premium Psyllium Husk, a wide variety of Indian Spices, and diverse Seeds.',   
+    // Meta Keywords
+    'meta_keywords_lbl' => 'Psyllium Husk, Indische Gewürze, Verdauungsgesundheit, Cholesterinmanagement, Premium Psyllium Husk, Gesundheitsprodukte, Exportgeschäft, Ayurveda, Wellness, globaler Handel',
 
-   'service_title_txt_1'        => 'Quality Assurance',
-   'service_sub_txt_1'          => 'SHREE TRISHUL EXIM is dedicated to delivering premium Psyllium Husk, spices, and seeds. We adhere to the highest standards of quality and customer satisfaction.',
-   'service_title_txt_2'        => 'Mission-Driven',
-   'service_sub_txt_2'          => 'Our mission at SHREE TRISHUL EXIM is to uphold excellence and integrity in the export/import industry, providing the finest products to the global market.',
-   'service_title_txt_3'        => 'Global Reach',
-   'service_sub_txt_3'          => 'Specializing in the export/import sector, SHREE TRISHUL EXIM embodies values of reliability and innovation, ensuring our global customers receive the best products.',
+    // Open Graph Tags
+    'og_title_lbl' => 'Über uns - Shree Trishul Exim: Premium Psyllium Husk & Indische Gewürze',
+    'og_description_lbl' => 'Entdecken Sie die Mission von Shree Trishul Exim, Premium Psyllium Husk und Indische Gewürze weltweit zu liefern. Erfahren Sie mehr über unsere natürlichen Produkte, die die Verdauungsgesundheit und das allgemeine Wohlbefinden fördern.',
+    'og_image_lbl' => asset('front-1/img/logo.png'), // Pfad zu einem geeigneten Bild für die Social Media-Vorschau
+    'og_url_lbl' => url('about-us'), // URL der "Über uns"-Seite
+    'og_type_lbl' => 'website',
 
-   'company_sub_title_txt' => 'Leading Exporters of Premium Products',
-   'company_title_txt_1' => 'Experience Excellence',
-   'company_title_txt_2' => 'with SHREE TRISHUL EXIM',
-   'company_sub_txt_title' => 'We are here to deliver excellence and satisfaction',
-   'company_sub_txt_detail' => 'At SHREE TRISHUL EXIM, we specialize in exporting high-quality Psyllium Husk, spices, and seeds. Our mission is to ensure unparalleled quality and customer satisfaction. We uphold values of integrity and excellence, bringing the best of India to the global market. Join us in experiencing the exceptional benefits our premium products offer.',
-   'detail_btn_txt' => 'Get Started Now',
+    // Twitter Meta Tags
+    'twitter_title_lbl' => 'Über uns - Shree Trishul Exim',
+    'twitter_description_lbl' => 'Entdecken Sie die Geschichte von Shree Trishul Exim. Wir sind auf den Export von Premium Psyllium Husk und authentischen Indischen Gewürzen spezialisiert und verbessern die Gesundheit weltweit.',
+    'twitter_image_lbl' => asset('front-1/img/logo.png'),
+    'twitter_url_lbl' => url('about-us'),
 
-   'form_title' => 'Request a Quote',
-   'select_service_txt' => 'Select Service',
-   'select_service_1' => 'Psyllium Husk',
-   'select_service_2' => 'Spices',
-   'select_service_3' => 'Seeds',
+    // Canonical URL
+    'canonical_url_lbl' => url('about-us'),
+    
+    // Banner Title
+    'banner_title_lbl' => 'Über uns',
+    'banner_home_lbl' => 'Startseite',
+    
+    // About Us Detail Titles and Content
+    'about_detail_title_h3' => 'SHREE TRISHUL EXIM: Verbindet die Welt mit den Aromen Indiens',
+    'about_detail_title_h3_2' => 'SHREE TRISHUL EXIM: Ihr vertrauenswürdiger Partner für Premium Psyllium Husk & Indische Gewürze',
+    'about_detail_title_p_1' => 'Bei SHREE TRISHUL EXIM glauben wir an den Aufbau langfristiger Beziehungen zu unseren Kunden, die auf Vertrauen, Transparenz und gegenseitigem Wachstum basieren. Wir sind leidenschaftlich daran interessiert, die hochwertigsten Psyllium Husk und Indischen Gewürze anzubieten und dabei ethische und nachhaltige Beschaffungspraktiken sicherzustellen.',
+    'about_detail_title_p_2' => 'Wir sind bestrebt, die Erwartungen unserer Kunden zu übertreffen, indem wir wettbewerbsfähige Preise, pünktliche Lieferung und persönlichen Service bieten. Unser erfahrenes Team von Fachleuten steht Ihnen immer zur Verfügung, um Ihre Anfragen oder besonderen Wünsche zu bearbeiten.',
+    'about_detail_title_p_3' => 'Wir sind ein führender Exporteur von Premium Psyllium Husk und einer Vielzahl authentischer Indischer Gewürze. Wir beziehen unsere Produkte von vertrauenswürdigen Bauern und halten uns an strenge Qualitätskontrollstandards.',
+    'about_detail_title_p_4' => 'Wir bieten eine vielfältige Produktpalette, die den Anforderungen verschiedener Branchen entspricht, darunter Lebensmittel und Getränke, Nahrungsergänzungsmittel und Körperpflege. Wir streben danach, exzellenten Kundenservice zu bieten und langfristige Partnerschaften mit unseren Kunden weltweit aufzubauen.',
+    'about_detail_title_p_5' => 'Wir bieten eine vielfältige Produktpalette, die den Anforderungen verschiedener Branchen entspricht, darunter Lebensmittel und Getränke, Nahrungsergänzungsmittel und Körperpflege. Wir streben danach, exzellenten Kundenservice zu bieten und langfristige Partnerschaften mit unseren Kunden weltweit aufzubauen.',
+    
+    // Block Quote Section
+    'block_quotes_h3' => 'Block Zitate',
+    'block_quotes_text' => 'Shree Trishul Exim steht an der Spitze des globalen Handels und bietet Premium Psyllium Husk und authentische Indische Gewürze an. Unser Engagement für Qualität und Exzellenz hat uns zu einem vertrauenswürdigen Partner für Händler und Einzelhändler weltweit gemacht. Indem wir die höchsten Standards einhalten, stellen wir sicher, dass unsere Kunden Produkte erhalten, die ihre Erwartungen nicht nur erfüllen, sondern übertreffen. Bei Shree Trishul Exim glauben wir an den Aufbau langfristiger Beziehungen, die auf Vertrauen, Integrität und gegenseitigem Wachstum basieren.',
 
-   'input_placeholder_1' => 'Name',
-   'input_placeholder_2' => 'Phone Number',
-   'input_placeholder_3' => 'Email Address',
-   'form_btn' => 'Request Free Quote',
+    // Company Tagline
+    'about_detail_title_p_6' => 'SHREE TRISHUL EXIM: Globale Händler von Premium Psyllium Husk & Indischen Gewürzen',
 
+    // Service Section
+    'service_detail_h4_1' => 'Psyllium Husk',
+    'service_detail_p_1' => 'Erleben Sie unübertroffene Qualität mit unserem Premium-Psyllium Husk, das mit größter Sorgfalt bezogen und verarbeitet wird.',
+    
+    'service_detail_h4_2' => 'Indische Gewürze',
+    'service_detail_p_2' => 'Verleihen Sie Ihren kulinarischen Kreationen mit unserer vielfältigen Auswahl an authentischen Indischen Gewürzen, die auf den besten Farmen geerntet werden, den perfekten Geschmack.',
+    
+    'service_detail_h4_3' => 'Qualitäts-Samen',
+    'service_detail_p_3' => 'Unsere hochwertigen Samen gewährleisten einen produktiven Ertrag und unterstützen nachhaltige Landwirtschaft und globale Ernährungssicherheit.',
 
-   'service_detail_h1' => 'Our Premium Market Sectors',
-   'service_detail_p' => 'Bringing you the finest from India\'s rich heritage.',
-
-   'service_detail_h4_1' => 'Psyllium Husk',
-   'service_detail_p_1' => 'Experience unmatched quality with our premium-grade Psyllium Husk, sourced and processed with utmost care. ',
-
-   'service_detail_h4_2' => 'Indian Spices',
-   'service_detail_p_2' => ' Enhance your culinary creations with our diverse range of authentic Indian spices, harvested from the best farms.',
-
-   'service_detail_h4_3' => 'Quality Seeds',
-   'service_detail_p_3' => 'Our superior quality seeds ensure a productive yield, supporting sustainable farming and global food security.',
-
-   'tickers_txt_1' => 'Projects Completed',
-   'tickers_txt_2' => 'Total Employees',
-   'tickers_txt_3' => 'Happy Clients',
-   'tickers_txt_4' => 'Tickets Submited',
-
-   'latest_product_h1' => 'Latest Finished Projects',
-   'latest_product_p' => 'Who are in extremely love with eco friendly system..',
-
-   'feedback_text_h1' => 'Hear What Our Clients Have to Say',
-   'feedback_text_p' => 'Our clients are passionate about our eco-friendly approach and premium quality products.',
-
-   'service_detail_p_3' => 'Catering to those who cherish eco-friendly solutions, our latest ventures emphasize our commitment to quality and sustainability.',
-
+    // Footer Section
+    'footer_about_txt' => 'Über uns',
 ];

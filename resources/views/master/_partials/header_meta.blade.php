@@ -1,13 +1,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Favicon-->
-<link rel="shortcut icon" href="img/fav.png">
-<!-- Author Meta -->
-<meta name="author" content="codepixer">
-<!-- Meta Description -->
-<meta name="description" content="">
-<!-- Meta Keyword -->
-<meta name="keywords" content="">
-<!-- meta character set -->
+<link rel="shortcut icon" href="{{ asset('front-1/img/fav.png') }}">
+<meta name="author" content="Shree Trishul Exim"> 
+<meta name="description" content="Discover the health benefits of Premium Psyllium Husk from Shree Trishul Exim. Our high-quality psyllium husk supports digestive health, cholesterol management, and more. Explore our range and improve your well-being naturally."> 
+<meta name="keywords" content="psyllium husk, digestive health, fiber, constipation, cholesterol, weight management, gut health, natural remedies, Shree Trishul Exim, Indian Spices">
 <meta charset="UTF-8">
-<!-- Site Title -->
-<title>Industry</title>
+<title>Shree Trishul Exim: Premium Psyllium Husk & Indian Spices</title>

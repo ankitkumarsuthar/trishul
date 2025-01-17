@@ -32,7 +32,7 @@
     <div class="container main-menu">
     	<div class="row align-items-center justify-content-between d-flex">
 	      <div id="logo">
-	        <a href="index.html"><img src="{{ asset('front-1/img/logo.png') }}" alt="" title="" /></a>
+	        <a href="{{ route('home') }}"><img src="{{ asset('front-1/img/logo.png') }}" alt="" title="" /></a>
 	      </div>
 	      <nav id="nav-menu-container">
 	        <ul class="nav-menu">
@@ -40,6 +40,14 @@
     <li><a href="{{ route('about-us') }}">About</a></li>
     <li><a href="{{ route('services') }}">Service</a></li>
     <li><a href="{{ route('products') }}">Products</a></li>
+    
+     <li class="menu-has-children"><a href="">Blog</a>
+            <ul>
+              <li><a href="#">Blog Home</a></li>
+              <li><a href="{{ route('blog') }}">Blog Single</a></li>
+            </ul>
+          </li>       
+
     <li><a href="{{ route('contact-us') }}">Contact</a></li>
 	          {{-- <li class="menu-has-children"><a href="">Blog</a>
 	            <ul>

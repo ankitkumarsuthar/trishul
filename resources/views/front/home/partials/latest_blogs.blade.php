@@ -16,7 +16,7 @@
                 <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
                     <div>
                         <img class="img-fluid" src="{{ asset('front-1/img/user.png') }}" alt="">
-                        <a href="#"><span>Mark Wiens</span></a>
+                        <a href="{{ route('blog') }}"><span>Mark Wiens</span></a>
                     </div>
                     <div class="meta">
                         13th Dec
@@ -24,7 +24,7 @@
                         <span class="lnr lnr-bubble"></span> 04
                     </div>
                 </div>                          
-                <a href="#">
+                <a href="{{ route('blog') }}">
                     <h4>The Benefits of Premium Psyllium Husk</h4>
                 </a>
                 <p>
@@ -38,7 +38,7 @@
                 <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
                     <div>
                         <img class="img-fluid" src="{{ asset('front-1/img/user.png') }}" alt="">
-                        <a href="#"><span>Mark Wiens</span></a>
+                        <a href="{{ route('blog') }}"><span>Mark Wiens</span></a>
                     </div>
                     <div class="meta">
                         13th Dec
@@ -46,7 +46,7 @@
                         <span class="lnr lnr-bubble"></span> 04
                     </div>
                 </div>                          
-                <a href="#">
+                <a href="{{ route('blog') }}">
                     <h4>Exploring the Rich Flavors of Indian Spices</h4>
                 </a>
                 <p>
@@ -60,7 +60,7 @@
                 <div class="bottom d-flex justify-content-between align-items-center flex-wrap">
                     <div>
                         <img class="img-fluid" src="{{ asset('front-1/img/user.png') }}" alt="">
-                        <a href="#"><span>Mark Wiens</span></a>
+                        <a href="{{ route('blog') }}"><span>Mark Wiens</span></a>
                     </div>
                     <div class="meta">
                         13th Dec
@@ -68,7 +68,7 @@
                         <span class="lnr lnr-bubble"></span> 04
                     </div>
                 </div>                          
-                <a href="#">
+                <a href="{{ route('blog') }}">
                     <h4>Sustainable Practices in Spice Farming</h4>
                 </a>
                 <p>

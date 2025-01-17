@@ -27,6 +27,7 @@ Route::get('/about-us', [App\Http\Controllers\AboutUsController::class, 'index']
 Route::get('/products', [App\Http\Controllers\ProductsController::class, 'index'])->name('products');
 Route::get('/services', [App\Http\Controllers\ServicesController::class, 'index'])->name('services');
 Route::get('/contact-us', [App\Http\Controllers\ContactUsController::class, 'index'])->name('contact-us');
+Route::get('/blog', [App\Http\Controllers\BlogController::class, 'index'])->name('blog');
 
 Route::get('/lang/{lang}', [App\Http\Controllers\LanguageController::class, 'switchLang'])->name('lang.switch');
 

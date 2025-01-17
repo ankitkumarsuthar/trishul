@@ -8,12 +8,14 @@
 /* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
-  background-color: #fab700;
+  
+background-color: #008080;
   color: #fff;
 }
 
 ::selection {
-  background-color: #fab700;
+  
+background-color: #008080;
   color: #fff;
 }
 
@@ -2259,7 +2261,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .primary-btn {
-  background-color: #fab700;
+  
+background-color: #008080;
   line-height: 42px;
   padding-left: 30px;
   padding-right: 30px;
@@ -2404,7 +2407,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .header-btn {
-  background-color: #fab700;
+  
+background-color: #008080;
   border-radius: 0;
   padding-left: 30px;
   padding-right: 30px;
@@ -2452,7 +2456,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cat-area .hb-facebook-inv:hover, .cat-area .hb-facebook-inv:hover::after, .cat-area .hb-facebook-inv:hover::before {
-  background-color: #fab700;
+  
+background-color: #008080;
   border-color: #A7A7A7;
   color: #fff;
 }
@@ -2478,7 +2483,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .home-about-area .home-about-left .primary-btn {
   text-transform: capitalize !important;
-  background-color: #fab700;
+  
+background-color: #008080;
   color: #fff;
   border: 1px solid transparent;
   -webkit-transition: all 0.3s ease 0s;
@@ -2654,13 +2660,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .circle {
-  border: 1px solid #fab700;
+  border: 1px solid #008080;
   border-radius: 68px;
   display: inline-block;
 }
 
 .inner {
-  background-color: #fab700;
+  
+background-color: #008080;
   border-radius: 50px;
   margin: 24px;
   height: 90px;
@@ -2857,7 +2864,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-social a:hover i {
-  color: #fab700;
+  color: #008080;
 }
 
 .footer-social i {
@@ -2915,7 +2922,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .single-footer-widget .click-btn {
-  background-color: #fab700;
+  
+background-color: #008080;
   color: #fff;
   border-radius: 0;
   border-top-left-radius: 0px;
@@ -2984,7 +2992,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .footer-text a, .footer-text i {
-  color: #fab700;
+  color: #008080;
 }
 
 .whole-wrap {
@@ -2993,7 +3001,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .generic-banner {
   margin-top: 60px;
-  background-color: #fab700;
+  
+background-color: #008080;
   text-align: center;
 }
 
@@ -3374,7 +3383,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .tags-widget ul li:hover {
-  background-color: #fab700;
+  
+background-color: #008080;
 }
 
 .tags-widget ul li:hover a {
@@ -3514,7 +3524,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 .commentform-area .primary-btn {
   padding-left: 50px;
   padding-right: 50px;
-  background-color: #fab700 !important;
+  
+background-color: #008080 !important;
   border: 1px solid transparent;
   color: #fff;
 }

@@ -1,7 +1,31 @@
 <?php
 
 return [   
-   'meta_title_lbl'             => 'Products',
+      // Meta Title
+    'meta_title_lbl' => 'Our Products - Premium Psyllium Husk & Authentic Indian Spices',
+
+    // Meta Description
+    'meta_description_lbl' => 'Explore Shree Trishul Exim\'s high-quality Psyllium Husk, Powder, and Seeds, as well as a variety of premium Indian Spices like cumin, turmeric, and cardamom. We offer multiple packaging options and export worldwide with a focus on quality assurance and organic products.',
+
+    // Meta Keywords
+    'meta_keywords_lbl' => 'psyllium husk, psyllium powder, psyllium seeds, premium psyllium husk, Indian spices, cumin, turmeric, cardamom, bulk spices, organic spices, quality control, packaging, export business, health products, Ayurvedic spices, export services',
+
+    // Open Graph Tags
+    'og_title_lbl' => 'Our Products - Premium Psyllium Husk & Authentic Indian Spices',
+    'og_description_lbl' => 'Shree Trishul Exim offers a range of high-quality Psyllium Husk, Powder, and Seeds, along with authentic Indian Spices like cumin, turmeric, and cardamom. Learn more about our premium quality, organic products, and efficient export capabilities.',
+    'og_image_lbl' => asset('front-1/img/logo.png'), // Path to the image for social sharing
+    'og_url_lbl' => url('products'), // Use the URL of the Products page
+    'og_type_lbl' => 'website',
+
+    // Twitter Meta Tags
+    'twitter_title_lbl' => 'Our Products - Premium Psyllium Husk & Authentic Indian Spices',
+    'twitter_description_lbl' => 'Discover premium quality Psyllium Husk, Powder, and Seeds, along with a variety of authentic Indian Spices like cumin, turmeric, and cardamom. We offer organic and bulk packaging options for export worldwide.',
+    'twitter_image_lbl' => asset('front-1/img/logo.png'),
+    'twitter_url_lbl' => url('products'),
+
+    // Canonical URL
+    'canonical_url_lbl' => url('products'),
+    
    'banner_title_lbl' => 'Products',
    'banner_home_lbl' => 'Home',
    'product_detail_title_h3' => 'Products',

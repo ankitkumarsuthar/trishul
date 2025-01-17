@@ -1,7 +1,31 @@
 <?php
 
 return [   
-   'meta_title_lbl'             => 'About Us Page',
+    // Meta Title
+    'meta_title_lbl' => 'About Us - Shree Trishul Exim: Premium Psyllium Husk & Indian Spices',
+
+    // Meta Description
+    'meta_description_lbl' => 'Learn more about Shree Trishul Exim, a trusted exporter of Premium Psyllium Husk and Indian Spices. Discover our commitment to high-quality, natural products that support digestive health and overall wellness.',
+
+    // Meta Keywords
+    'meta_keywords_lbl' => 'psyllium husk, Indian spices, digestive health, cholesterol management, premium psyllium husk, health products, export business, Ayurveda, wellness, global trade',
+
+    // Open Graph Tags
+    'og_title_lbl' => 'About Us - Shree Trishul Exim: Premium Psyllium Husk & Indian Spices',
+    'og_description_lbl' => 'Explore Shree Trishul Exim\'s mission to deliver premium Psyllium Husk and Indian Spices worldwide. Learn more about our natural products that enhance digestive health and overall wellness.',
+    'og_image_lbl' => asset('front-1/img/logo.png'), // Path to an appropriate image for social sharing
+    'og_url_lbl' => url('about-us'), // Use the URL of the About Us page
+    'og_type_lbl' => 'website',
+
+    // Twitter Meta Tags
+    'twitter_title_lbl' => 'About Us - Shree Trishul Exim',
+    'twitter_description_lbl' => 'Discover Shree Trishul Exim’s story. We specialize in exporting premium Psyllium Husk and authentic Indian Spices, enhancing health globally.',
+    'twitter_image_lbl' => asset('front-1/img/logo.png'),
+    'twitter_url_lbl' => url('about-us'),
+
+    // Canonical URL
+    'canonical_url_lbl' => url('about-us'),
+    
    'banner_title_lbl' => 'About Us',
    'banner_home_lbl' => 'Home',
    'about_detail_title_h3' => 'SHREE TRISHUL EXIM: Connecting the World with the Flavors of India',
